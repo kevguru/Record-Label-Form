@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Record Label Form</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<h1 id="title">Guru Recordz Application</h1>
+<p id="description">Thank you for taking the time and interest in our record label.</p>
+<div id="survey-container">
+<form id="survey-form">
+  <label id="name-label" for="name">Name</label><br>
+  <input for="name" id="name" type="text" placeholder="Name" required></input><br>
+  <label id="email-label" for="email">Email</label><br>
+  <input for="email" id="email" type="email" placeholder="Email" required></input><br>
+  <label id="number-label" for="age">Age</label><br>
+  <input for="age" id="number" type="number" min="1" max="150" placeholder="Age">   </input><br>
+  <label id="talent-question" for="talent">Which option best describes your best talent?</label><br>
+  <select id="dropdown" name="talent">
+    <option value="Singer">Singer</option>
+    <option value="Songwriter">Songwriter</option>
+    <option value="Beat Maker">Beat Maker</option>
+    <option value="Mixing">Mixing</option>
+    <option value="Rapper">Rapper</option>
+    <option value="Music Videos">Music Videos</option>
+    <option value="Photographer">Photographer</option>
+    <option value="Model">Model</option>
+    <option value="Dancer">Dancer</option>
+    <option value="A&R Manager(Talent Finder)">A&R Manager(Talent Finder)</option>
+    <option value="Marketing">Marketing</option>
+    <option value="Mastering">Mastering</option>
+    <option value="Animator">Animator</option>
+    <option value="Single/Albumn Cover Artist">Single/Albumn Cover Artist</option>
+    <option value="Assistant Manager">Assistant Manager</option>
+    <option value="Fashion Designer">Fashion Designer</option>
+    <option value="Painter">Painter</option>
+    <option value="Drawing">Drawing</option>
+    <option value="Security">Security</option>
+  </select><br>
+    <p id="level-question">Which best describes your experience level?</p><br>
+    <input type="radio" id="beginner" name="sign" value="Beginner"></input>
+    <label id="beginner-label" for="beginner">Beginner(1-2 years)</label><br>
+    <input type="radio" id="intermediate" name="sign" value="Intermediate"></input>
+    <label id="intermediate-label" for="intermediate">Intermediate(3-6 years)</label><br>
+    <input type="radio" id="expert" name="sign" value="Expert"></input>
+    <label id="expert-label" for="expert">Expert(7+ years)</label><br>
+    <p id="genre-question">What type of music do you make?<br>(Check all that apply)</p><br>
+    <input type="checkbox" id="rap" name="rap" value="Rap">
+    <label id="rap-label" for="rap">Rap</label><br>
+    <input type="checkbox" id="hip-hop" name="hip-hop" value="Hip-Hop">
+    <label id="hip-hop-label" for="hip-hop">Hip-Hop</label><br>
+    <input type="checkbox" id="pop" name="pop" value="Pop">
+    <label id="pop-label" for="pop">Pop</label><br>
+    <input type="checkbox" id="salsa" name="salsa" value="Salsa">
+    <label id="salsa-label" for="salsa">Salsa</label><br>
+    <input type="checkbox" id="bachata" name="bachata" value="Bachata">
+    <label id="bachata-label" for="bachata">Bachata</label><br>
+    <input type="checkbox" id="dembow" name="dembow" value="Dembow">
+    <label id="dembow-label" for="dembow">Dembow</label><br>
+    <input type="checkbox" id="techno" name="techno" value="Techno">
+    <label id="techno-label" for="techno">Techno</label><br>
+    <input type="checkbox" id="deep-house" name="deep-house" value="Deep House">
+    <label id="deep-house-label" for="deep-house">Deep House</label><br>
+    <input type="checkbox" id="reggae" name="reggae" value="Reggae">
+    <label id="reggae-label" for="reggae">Reggae</label><br>
+    <input type="checkbox" id="reggaeton" name="reggaeton" value="Reggaeton">
+    <label id="reggaeton-label" for="reggaeton">Reggaeton</label><br>
+    <input type="checkbox" id="dancehall" name="dancehall" value="Dancehall">
+    <label id="dancehall-label" for="dancehall">Dancehall</label><br>
+    <input type="checkbox" id="rock" name="rock" value="Rock">
+    <label id="rock-label" for="rock">Rock</label><br>
+    <input type="checkbox" id="dubstep" name="dubstep" value="Dubstep">
+    <label id="dubstep-label" for="dubstep">Dubstep</label><br>
+    <label id="music-links-label" for="music-links">Music Links:</label><br>
+    <textarea id="music-links" name="music-links" row="4" cols="50"></textarea><br>
+    <label id="social-links-label" for="social-links">Social Media Links:</label><br>
+    <textarea id="social-links" name="social-links" row="4" cols="50"></textarea><br>
+    <label id="comments-label" for="comments">Additional comments or suggestions?</label><br>
+    <textarea id="comments" name="comments" row="4" cols="50"></textarea><br>
+    <input type="submit" value="Submit" id="submit">
+    </input>
+</form>
+</div>
+</body>
+
+</html>
